@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Category extends CI_Controller {
+class Property_type extends CI_Controller {
 /**
  * ark Admin Panel for Codeigniter 
  * Author: Chirag A. Boghani
@@ -12,81 +12,81 @@ class Category extends CI_Controller {
  */
     public function __construct() {
         parent::__construct();
-        $this->load->model('admin/categorymodel');
+        $this->load->model('admin/property_typemodel');
         if (!$this->session->userdata('is_admin_login')) {
             redirect('admin/home');
         }
     }
 
     public function index() {
-        $data['page'] = 'category';
-        
-        //$data['category'] = $this->categorymodel->get_list();
+        $data['page'] = 'property_type';
+        $data['page_title'] = 'Property Type';
         $this->load->view('admin/templates/header', $data);
         $this->load->view('admin/templates/leftside', $data);
-        $this->load->view('admin/category', $data);
+        $this->load->view('admin/property_type', $data);
         $this->load->view('admin/templates/footer', $data);
     }
-    function category_list() {
-        $results = $this->categorymodel->get_list();
+    function property_type_list() {
+        $results = $this->property_typemodel->get_list();
         echo json_encode($results);
     }
     
     
-    public function add_category() {
-        $data['page'] = 'add_cate';
-        
+    public function add_property_type() {
+        $data['page'] = 'add_property_type';
+        $data['page_title'] = 'Property Type';
         $data['id'] = '';
         $data['category'] = '';
         
         $this->load->view('admin/templates/header', $data);
         $this->load->view('admin/templates/leftside', $data);
-        $this->load->view('admin/add_category', $data);
+        $this->load->view('admin/add_property_type', $data);
         $this->load->view('admin/templates/footer', $data);
     }
 
-     public function edit_category($id) { 
-        $data['page'] = 'edit_cate';
+     public function edit_property_type($id) { 
+        $data['page_title'] = 'Property Type';
+        $data['page'] = 'edit_property_type';
         $data['id'] = $id;
-        $data['category'] = $this->categorymodel->get_categories_by_id($id);
+        $data['category'] = $this->property_typemodel->get_property_type_by_id($id);
         
         $this->load->view('admin/templates/header', $data);
         $this->load->view('admin/templates/leftside', $data);
-        $this->load->view('admin/edit_category', $data);
+        $this->load->view('admin/edit_property_type', $data);
         $this->load->view('admin/templates/footer', $data);
     }
     
-    public function update_category() 
+    public function update_property_type() 
     {
         $data['id'] = $this->input->post('id');
-        $data['category_name'] = $this->input->post('category_name');
+        $data['pname'] = $this->input->post('pname');
         $data['sequence'] = $this->input->post('sequence');
         $data['status'] = $this->input->post('status');
-        $result = $this->categorymodel->get_categories_save($data);
+        $result = $this->property_typemodel->get_property_type_save($data);
         if($result){
-            redirect('admin/category');
+            redirect('admin/property_type');
         }else{
-            $messge = array('message' => 'Category Add/Edit Something Wrong','message_type' => 'error');
+            $messge = array('message' => 'Property Type Add/Edit Something Wrong','message_type' => 'error');
             $this->session->set_flashdata('item', $messge);
             if($this->input->post('id')){
                 $id= $this->input->post('id');
-                redirect('admin/category/edit_category/'.$id);
+                redirect('admin/property_type/edit_property_type/'.$id);
             }else{
-                redirect('admin/category/add_category');
+                redirect('admin/property_type/add_property_type');
             }
         }
     }
     
-    public function delete_user() {
+     public function delete_user() {
         // Code goes here
         $this->db->where('id', $this->input->post('id'));
-        if($this->db->delete('categories')){
-            $messge = array('message' => 'Category Delete Successful','message_type' => 'error');
+        if($this->db->delete('property_type')){
+            $messge = array('message' => 'Property Type Delete Successful','message_type' => 'error');
             $this->session->set_flashdata('item', $messge);
             $array = array();
             echo json_encode($array);
         }else{
-            $messge = array('message' => 'Category Delete Something Wrong','message_type' => 'error');
+            $messge = array('message' => 'Property Type Delete Something Wrong','message_type' => 'error');
             $this->session->set_flashdata('item', $messge);
             $array = array();
             echo json_encode($array);
@@ -96,20 +96,20 @@ class Category extends CI_Controller {
     public function status_user() {
         // Code goes here
         $id = $this->input->post('id');
-        $provide = $this->categorymodel->get_categories_by_id($id);
+        $provide = $this->property_typemodel->get_property_type_by_id($id);
         
         $status = $provide['status'];
         if($status =='1'){
-            $messge = array('message' => 'Category Inactive Successful','message_type' => 'error');
+            $messge = array('message' => 'Property Type Inactive Successful','message_type' => 'error');
             $this->session->set_flashdata('item', $messge);
             $up_status = '0';
         }else{
-            $messge = array('message' => 'Category Active Successful','message_type' => 'success');
+            $messge = array('message' => 'Property Type Active Successful','message_type' => 'success');
             $this->session->set_flashdata('item', $messge);
             $up_status = '1';
         }
         $this->db->where('id', $id);
-        if($this->db->update('categories', array('status' => $up_status))){
+        if($this->db->update('property_type', array('status' => $up_status))){
             $array = array();
             $array['id'] = $id;
             $array['status'] = $up_status;
