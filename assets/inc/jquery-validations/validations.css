@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+#add_inquiry label.error {
+    color: #FF0000;
+    display: inline;
+    float: left; clear:both;
+    font-size: 13px;
+    line-height: 8px;
+    margin:7px 0 5px 5px;
+    padding: 0;
+    width: 100%;
+}
+@media (min-width: 480px){
+	
+}

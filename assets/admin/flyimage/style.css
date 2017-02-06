@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#438eb9;
+	padding:5px;
+        text-align: center;
+	display:none;
+	width:200px;
+	color:#fff;
+	}
+
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	}	
+	
+#screenshot img{
+	border:solid 1px #006;
+}

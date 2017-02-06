@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Condensed-Thin.eot');
+    src: url('Helvetica-Condensed-Thin.eot') format('embedded-opentype'),
+         url('Helvetica-Condensed-Thin.woff') format('woff'),
+         url('Helvetica-Condensed-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura';
+    src: url('Futura-Condensed-Normal.eot');
+    src: url('Futura-Condensed-Normal.eot') format('embedded-opentype'),
+         url('futura-condensed-normal.woff') format('woff'),
+         url('Futura-Condensed-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto-cond';
+    src: url('RobotoCondensed-Regular.eot');
+    src: url('RobotoCondensed-Regular.eot') format('embedded-opentype'),
+         url('RobotoCondensed-Regular.woff') format('woff'),
+         url('RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+font-family: 'roboto';
+font-style: normal;
+font-weight: normal;
+src: local('roboto'), url('roboto-regular-webfont.woff') format('woff');
+}

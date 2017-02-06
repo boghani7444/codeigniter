@@ -1,0 +1,718 @@
+@media only screen and (max-width:1150px){
+    .span-8{
+        width: 80%;
+    }
+    
+    .skill-list .span-6{
+        width: 45%;
+    }
+    
+    .skill-data{
+        width: 71%;
+    }
+    
+}
+
+@media only screen and (max-width:1085px){
+    .span-7{
+        width: 60%;
+    }
+    ul.service li{
+        margin: 0 2.5%;
+    }
+    
+    .portfolio-data .mix{
+        width: 29.5%;
+    }
+    .col{
+        width: 35%;
+    }
+    
+    
+}
+
+@media only screen and (max-width:1050px){
+     .span-7{
+        width: 58%;
+    }
+    
+    ul.service li{
+        margin: 0 1.5%;
+    }
+    .span-8{
+        width: 78%;
+    }
+    .why-us-section .span-6{
+        width: 38%;
+    }
+    
+    .span-3{
+        width: 35%;
+    }
+    
+    .span-7 {
+        width: 62%;
+    }
+    
+    .owl-buttons{
+        top: 18%;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .job-arw{
+        width: 180px;
+        left: -20%;
+        bottom: -30%;
+    }
+    .dedicated-lists {
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width:980px){
+    .process-steps{
+        min-height: 240px;
+    }
+    .nav li a{
+        padding: 0 15px;
+    }
+    
+    .skill-data{
+        width: 68%;
+    }
+    
+}
+
+@media only screen and (max-width:950px){
+    .process-steps{
+        width: 16%;
+    }
+    .span-2{
+        width: 20%;
+    }
+    
+    .span-7{
+        width: 100%;
+        text-align: center;
+    }
+    ul.service li{
+        margin: 0 6%;
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .span-3{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .portfolio-data .mix {
+        width: 29%;
+    }
+    ul#service-tabs h2{
+        font-size: 17px;
+    }   
+    
+}   
+
+
+@media only screen and (max-width:900px){
+    .drop-nav{
+        display: none;
+    }
+    
+    .menu-tab {
+        cursor: pointer;
+        display: block;
+        float: left;
+        padding: 10px 0;
+        width: 100%;
+    }
+    .menu-tab .lines-square {
+            border: thin solid #fff;
+            border-radius: 3px;
+            float: left;
+            height: 25px;
+            margin-right: 5px;
+            width: 25px;
+    }
+	
+    .menu-tab .lines-square .lines:first-child {
+            margin-top: 5px;
+    }
+    
+    .menu-tab .lines {
+            background: #fff none repeat scroll 0 0;
+            border-radius: 2px;
+            height: 2px;
+            margin: 4px auto auto;
+            width: 70%;
+    }
+
+
+    .menu-tab .menu-txt {
+            float: left;
+            font-family: "futura";
+            font-size: 20px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #fff;
+    }
+    
+    .nav{
+        width: 100%;
+    }
+    
+    .drop-nav ul li{
+        float: none;
+        width: 100%;
+    }
+    .drop-nav ul li a{
+        padding: 0;
+        width: 100%;
+        display: block;
+        text-indent: 15px;
+    }
+    .skill-data{
+        width: 65%;
+    }
+    
+    .job-arw{
+        bottom: -43%;
+    }
+    .form span.divider{
+        left: -25%;
+    }
+    .col {
+        width: 33%;
+    }
+    
+    
+}
+
+@media only screen and (max-width:850px){
+    .why-us-section .span-2{
+        padding: 0;
+        background: none;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .why-us-section .span-8{
+        width: 100%;
+        margin-top: 20px;
+    }
+    ul.service li{
+        margin: 0 5%;
+    }
+    .ftr-light{
+        text-align: center;
+    }
+    
+    .nav-bar-ftr{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        clear: both;
+    }
+    
+    .ftr-logo{
+        float: none;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    
+    .ftr-nav li{
+        float: none;
+        display: inline-block;
+    }
+    
+    .ftr-nav li a{
+        margin: 0 10px;
+    }
+    
+    .portfolio-data .mix {
+        width: 28.5%;
+    }
+    .job-arw {
+        bottom: -52%;
+        left: -15%;
+    }
+    
+    .slide-txt h2{
+        font-size: 30px;
+    }
+    .slide-txt p{
+        font-size: 15px;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width:800px){
+    .process-steps{
+        min-height: 260px;
+    }
+    ul.service li{
+        margin: 0 4%;
+    }
+    .num{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .num-inner{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 40px;
+    }
+    .skill-data{
+        width: 60%;
+    }
+    .job-arw{
+        display: none;
+    }
+    .form span.divider {
+        left: -15%;
+    }
+    
+    ul#service-tabs h2{
+        width: 80px;
+        margin: auto;
+    }
+    
+    .plans{
+        width: 46%;
+        margin-top: 60px;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+.col {
+    width: 75%;
+}
+}
+
+@media only screen and (max-width:767px){
+    .abt-section .span-6.pull-right{
+        display: none;
+    }
+    .span-6{
+        width: 100%;
+    }
+    
+    .parallax .span-6.pull-left{
+        display: none;
+    }
+    .brdr-right{
+        border-right: none;
+    }
+    .why-list li{
+        width: 100%;
+    }
+    
+    .skills-page .span-12 .span-6{
+        width: 97%;
+    }
+    
+    .left-data .skill-icon{
+        float: left;
+    }
+    .left-data .skill-data{
+        float: left;
+        padding: 0;
+        padding-left: 15px;
+    }
+    .left-data .skill-data h2, .left-data p{
+        text-align: left;
+    }
+    .skill-data{
+        width: 75%;
+    }
+    
+    .left-data .skill-row:hover .skill-icon{
+	border:transparent solid 3px;
+	border-radius:0;
+	background:#e5e5e5;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+        border-top-right-radius:0;
+	border-bottom-right-radius:0;
+}
+
+.left-data .skill-row:hover .skill-data{
+	
+
+	border-top-right-radius:10px;
+        border-top-left-radius:0;
+	
+        
+}
+    
+.job-img{
+    display: none;
+} 
+
+.form{
+    width: 100%;
+    margin-right: 0;
+}
+
+.form span.divider {
+     display: none;
+    }
+    
+    .tabs-data .span-12 .span-6 p{
+        width: 100%;
+    }
+    
+    .inquiry .form{
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+}
+@media only screen and (max-width:750px){
+.portfolio-data .mix {
+        width: 28%;
+    }
+    
+    .slide-txt p{
+        font-size: 13px;
+    }
+    
+    .slide-txt{
+        top: 20%;
+    }
+}
+
+@media only screen and (max-width:700px){
+    ul.service li {
+        margin: 0 2%;
+    }
+    
+    .why-us-section .span-6{
+        width: 85%;
+        margin-bottom: 20px;
+    }
+    
+    .why-us-section .span-6.pull-right{
+        float:left;
+    }
+    
+    .why-us-section .span-6 li{
+        width: 100%;
+    }
+    
+    .innovative{
+        border: none;
+    }
+}
+
+@media only screen and (max-width:520px){
+    ul#service-tabs li a.current span.arw-dwn{
+        display: none;
+    }
+    ul#service-tabs li{
+        width: 100%;
+        border-right: none;
+        border-bottom: #fff solid thin;
+    }
+    
+    ul#service-tabs h2{
+        width: auto;
+    }
+    .service-big-img{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (max-width:680px){
+    .no-display{
+        display: none;
+    }
+    
+    .top-cntct-detail{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .top-cntct-detail .cntct-content{
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .logo img{
+        width: auto;
+    }
+    
+    .portfolio-data .mix {
+        width: 42.5%;
+    }
+    
+    .dedicated-lists {
+        width: 100%;
+    }
+    
+    
+}
+
+@media only screen and (max-width:640px){
+    ul.service li{
+        padding: 0 5px;
+    }
+    .ftr-nav li a {
+        margin: 0 7px;
+    }
+    
+    .srvc-icon{
+        display: none;
+    }
+
+    .top-links-inner{
+        display: block;
+    }
+    
+    .top-links ul li{
+        display: block;
+         margin-left: 0;
+
+    }
+    .top-links ul li a{
+      border-right: none;
+      border-bottom: #ccc solid thin;
+      text-align: left;
+    }
+    .top-links ul li{
+       
+    }
+    
+    .top-links ul li a.active{
+        transform: scale(1.0);
+        box-shadow: none;
+        border:none;
+        border-bottom: #ccc solid thin;
+        border-right: #ccc solid thin;
+    }
+    .breadcrum{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    ul.service li {
+        padding: 0;
+        margin: 20px 0;
+        width: 48%;
+    }
+    
+    .slide-main{
+        display: none;
+    }
+    
+    .ftr-head{
+        display: block;
+        color: #fff;
+        width: 100%;
+        font-family: "futura";
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: left;
+        margin-bottom: 10px;
+        background: url(../images/arw-down-white.png) no-repeat right;
+        cursor: pointer;
+    }
+    
+    .ftr-drop{
+        border-top:#fff solid thin;
+        display: none;
+    }
+    
+    .ftr-drop ul li{
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .ftr-drop ul li a{
+        margin: 0;
+        text-indent: 10px;
+    }
+    
+    .abt-img{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .ftr-dark{
+        text-align: center;
+    }
+    
+    .social, .copy{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .social ul li{
+        float: none;
+        display: inline-block;
+    }
+    
+    .dedicated-bg{
+        background-size: cover;
+    }
+    
+}
+
+@media only screen and (max-width:530px){
+    .skill-data {
+        width: 67%;
+    }
+    .dedicated-bg ul.bullet-tick li{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:480px){
+    .btn-bar li{
+           width: 95%;
+           margin-bottom: 10px;
+           padding: 10px 0;
+    }
+    .portfolio-data .mix {
+        width: 93%;
+    }
+    
+    .plans{
+        width: 94%;
+        
+    }
+    .heading h1, .heading h2{
+        font-size: 35px;
+    }
+    
+    .heading h3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:440px){
+    .srch{
+        width: 90%;
+    }
+    .inquiry .form{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:400px){
+    ul.service li {
+        width: 100%;
+    }
+    
+    
+    ul.service{
+        margin-top: 0;
+    }
+    
+    .skill-icon{
+        width: 80px;
+        height: 80px;
+        border-width: 2px !important;
+    }
+    
+    .right-data .skill-data, .left-data .skill-data{
+        width: 100%;
+        padding: 0;
+    }
+    
+    .right-data .skill-data h2, .left-data .skill-data h2, .right-data .skill-data p, .left-data .skill-data p{
+        text-align: center;
+    }
+    
+    .skill-icon{
+        margin: auto !important;
+        float: none !important;
+        
+    }
+    
+    .skill-row:hover .skill-icon{
+        border-radius:0 !important;
+        border-top-left-radius:10px !important;
+        border-top-right-radius:10px !important;
+    }
+    .skills-page .span-12 .span-6{
+        margin: 10px 0 ;
+       
+    }
+    
+    .skill-data{
+        width: 98% !important;
+        padding: 5px !important;
+    }
+    
+    .skill-row:hover .skill-data{
+	
+	border-radius:10px !important;
+	
+}
+
+.cntct-icon{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+.adrs .cntct-icon{
+    margin-top: 23px;
+}
+
+.form{
+    width: 96%;
+    margin: auto;
+    float: none;
+}
+.breadcrum{
+    display: none;
+}
+.heading h1, .heading h2 {
+    font-size: 30px;
+}
+
+.inquiry .form-center .form-group .btn{
+    padding: 5px 13%;
+}
+
+.col {
+    width: 90%;
+    padding-left: 0;
+}
+
+.cols-icon{
+    position: relative;
+    margin: auto;
+}
+
+.cols h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+    
+}

@@ -1,0 +1,61 @@
+.progress {
+  height: 10px;
+  background-color: rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  border-radius:5px;
+}
+.progress__bar {
+  display: block;
+  height: 100%;
+  background: #fff;
+  border-radius:5px;
+}
+
+.about-us .progress__bar{
+	background:#5BB8DD;
+}
+
+.progress__label {
+  float: right;
+  color: #000;
+  font-size: 12px;
+  position:relative;
+  top:-35px;
+  background:url(../images/percentage-bg.png) no-repeat center;
+	width:40px;
+	height:30px;
+	text-align:center;
+	line-height:25px;
+	right:-15px;
+}
+
+.about-us .progress__label {
+background:url(../images/percentage-bg-orange.png) no-repeat center;
+ color: #fff;
+}
+
+.progress--radius {
+  border-radius: 2px;
+}
+.progress--round {
+  border-radius: 1000px;
+}
+.progress--radius .progress__bar,
+.progress--round .progress__bar {
+  border-radius: inherit;
+}
+.progress--small {
+  height: 15px;
+}
+.progress--large {
+  height: 10px;
+}
+.progress--success .progress__bar {
+  background-color: #43ac6a;
+}
+.progress--alert .progress__bar {
+  background-color: #f04124;
+}
+.progress--striped .progress__bar {
+  background-size: 40px 40px;
+}
